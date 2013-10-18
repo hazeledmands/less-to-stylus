@@ -7,7 +7,7 @@ var fs = require('fs');
 // - replace the @ for var as $
 // - let semicolons
 
-function less2stylus(less)
+module.exports = function less2stylus(less)
 {
 	return less
 		// remove opening brackets
@@ -100,20 +100,3 @@ function less2stylus(less)
 
 		;
 }
-
-function less2stylusDir(dir)
-{
-	var names = fs.readdirSync(dir);
-
-	for (var _j = 0, _len = names.length; _j < _len; _j++) {
-		var name = names[_j];
-		if (name.match(/\.less$/))
-		{
-			var stylus = less2stylus(fs.readFileSync(dir + "/" + name, "utf-8"));
-			fs.writeFileSync(dir + "/" + (name.replace(/\.less$/, ".styl")), stylus);
-		}
-	}
-}
-
-less2stylusDir('.');
-// if you have a folder tree, add each folder, or use glob()...
