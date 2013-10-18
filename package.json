@@ -1,5 +1,5 @@
 {
-  "name": "less2stylus",
+  "name": "less-to-stylus",
   "version": "0.0.0",
   "description": "Convert .less css preprocessor files to .stylus format.",
   "main": "less2stylus.js",

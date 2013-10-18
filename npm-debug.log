@@ -1,0 +1,142 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/me/.nvm/v0.10.20/bin/node',
+1 verbose cli   '/Users/me/.nvm/v0.10.20/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.20
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/me/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/m9/xdtw6mmj42l46d75xcm7drm00000gn/T/npm-7714-8hMxa1Ik/1382077266873-0.32802328164689243/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/m9/xdtw6mmj42l46d75xcm7drm00000gn/T/npm-7714-8hMxa1Ik/1382077266873-0.32802328164689243/tmp.tgz
+12 verbose folder .
+13 silly lockFile 1f1177db-tar tar://.
+14 verbose lock tar://. /Users/me/.npm/1f1177db-tar.lock
+15 silly lockFile cde13dba-6873-0-32802328164689243-tmp-tgz tar:///var/folders/m9/xdtw6mmj42l46d75xcm7drm00000gn/T/npm-7714-8hMxa1Ik/1382077266873-0.32802328164689243/tmp.tgz
+16 verbose lock tar:///var/folders/m9/xdtw6mmj42l46d75xcm7drm00000gn/T/npm-7714-8hMxa1Ik/1382077266873-0.32802328164689243/tmp.tgz /Users/me/.npm/cde13dba-6873-0-32802328164689243-tmp-tgz.lock
+17 silly lockFile 1f1177db-tar tar://.
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile cde13dba-6873-0-32802328164689243-tmp-tgz tar:///var/folders/m9/xdtw6mmj42l46d75xcm7drm00000gn/T/npm-7714-8hMxa1Ik/1382077266873-0.32802328164689243/tmp.tgz
+20 silly lockFile cde13dba-6873-0-32802328164689243-tmp-tgz tar:///var/folders/m9/xdtw6mmj42l46d75xcm7drm00000gn/T/npm-7714-8hMxa1Ik/1382077266873-0.32802328164689243/tmp.tgz
+21 verbose tar unpack /var/folders/m9/xdtw6mmj42l46d75xcm7drm00000gn/T/npm-7714-8hMxa1Ik/1382077266873-0.32802328164689243/tmp.tgz
+22 silly lockFile a905f321-6873-0-32802328164689243-package tar:///var/folders/m9/xdtw6mmj42l46d75xcm7drm00000gn/T/npm-7714-8hMxa1Ik/1382077266873-0.32802328164689243/package
+23 verbose lock tar:///var/folders/m9/xdtw6mmj42l46d75xcm7drm00000gn/T/npm-7714-8hMxa1Ik/1382077266873-0.32802328164689243/package /Users/me/.npm/a905f321-6873-0-32802328164689243-package.lock
+24 silly lockFile cde13dba-6873-0-32802328164689243-tmp-tgz tar:///var/folders/m9/xdtw6mmj42l46d75xcm7drm00000gn/T/npm-7714-8hMxa1Ik/1382077266873-0.32802328164689243/tmp.tgz
+25 verbose lock tar:///var/folders/m9/xdtw6mmj42l46d75xcm7drm00000gn/T/npm-7714-8hMxa1Ik/1382077266873-0.32802328164689243/tmp.tgz /Users/me/.npm/cde13dba-6873-0-32802328164689243-tmp-tgz.lock
+26 silly gunzTarPerm modes [ '755', '644' ]
+27 silly gunzTarPerm extractEntry package.json
+28 silly gunzTarPerm extractEntry README.md
+29 silly gunzTarPerm extractEntry less2stylus.js
+30 silly lockFile a905f321-6873-0-32802328164689243-package tar:///var/folders/m9/xdtw6mmj42l46d75xcm7drm00000gn/T/npm-7714-8hMxa1Ik/1382077266873-0.32802328164689243/package
+31 silly lockFile a905f321-6873-0-32802328164689243-package tar:///var/folders/m9/xdtw6mmj42l46d75xcm7drm00000gn/T/npm-7714-8hMxa1Ik/1382077266873-0.32802328164689243/package
+32 silly lockFile cde13dba-6873-0-32802328164689243-tmp-tgz tar:///var/folders/m9/xdtw6mmj42l46d75xcm7drm00000gn/T/npm-7714-8hMxa1Ik/1382077266873-0.32802328164689243/tmp.tgz
+33 silly lockFile cde13dba-6873-0-32802328164689243-tmp-tgz tar:///var/folders/m9/xdtw6mmj42l46d75xcm7drm00000gn/T/npm-7714-8hMxa1Ik/1382077266873-0.32802328164689243/tmp.tgz
+34 verbose tar pack [ '/Users/me/.npm/less2stylus/0.0.0/package.tgz',
+34 verbose tar pack   '/var/folders/m9/xdtw6mmj42l46d75xcm7drm00000gn/T/npm-7714-8hMxa1Ik/1382077266873-0.32802328164689243/package' ]
+35 verbose tarball /Users/me/.npm/less2stylus/0.0.0/package.tgz
+36 verbose folder /var/folders/m9/xdtw6mmj42l46d75xcm7drm00000gn/T/npm-7714-8hMxa1Ik/1382077266873-0.32802328164689243/package
+37 silly lockFile a905f321-6873-0-32802328164689243-package tar:///var/folders/m9/xdtw6mmj42l46d75xcm7drm00000gn/T/npm-7714-8hMxa1Ik/1382077266873-0.32802328164689243/package
+38 verbose lock tar:///var/folders/m9/xdtw6mmj42l46d75xcm7drm00000gn/T/npm-7714-8hMxa1Ik/1382077266873-0.32802328164689243/package /Users/me/.npm/a905f321-6873-0-32802328164689243-package.lock
+39 silly lockFile 8db3ba89-pm-less2stylus-0-0-0-package-tgz tar:///Users/me/.npm/less2stylus/0.0.0/package.tgz
+40 verbose lock tar:///Users/me/.npm/less2stylus/0.0.0/package.tgz /Users/me/.npm/8db3ba89-pm-less2stylus-0-0-0-package-tgz.lock
+41 silly lockFile a905f321-6873-0-32802328164689243-package tar:///var/folders/m9/xdtw6mmj42l46d75xcm7drm00000gn/T/npm-7714-8hMxa1Ik/1382077266873-0.32802328164689243/package
+42 silly lockFile a905f321-6873-0-32802328164689243-package tar:///var/folders/m9/xdtw6mmj42l46d75xcm7drm00000gn/T/npm-7714-8hMxa1Ik/1382077266873-0.32802328164689243/package
+43 silly lockFile 8db3ba89-pm-less2stylus-0-0-0-package-tgz tar:///Users/me/.npm/less2stylus/0.0.0/package.tgz
+44 silly lockFile 8db3ba89-pm-less2stylus-0-0-0-package-tgz tar:///Users/me/.npm/less2stylus/0.0.0/package.tgz
+45 silly lockFile ae009190-me-npm-less2stylus-0-0-0-package /Users/me/.npm/less2stylus/0.0.0/package
+46 verbose lock /Users/me/.npm/less2stylus/0.0.0/package /Users/me/.npm/ae009190-me-npm-less2stylus-0-0-0-package.lock
+47 silly lockFile ae009190-me-npm-less2stylus-0-0-0-package /Users/me/.npm/less2stylus/0.0.0/package
+48 silly lockFile ae009190-me-npm-less2stylus-0-0-0-package /Users/me/.npm/less2stylus/0.0.0/package
+49 verbose tar unpack /Users/me/.npm/less2stylus/0.0.0/package.tgz
+50 silly lockFile df633bde-me-npm-less2stylus-0-0-0-package tar:///Users/me/.npm/less2stylus/0.0.0/package
+51 verbose lock tar:///Users/me/.npm/less2stylus/0.0.0/package /Users/me/.npm/df633bde-me-npm-less2stylus-0-0-0-package.lock
+52 silly lockFile 8db3ba89-pm-less2stylus-0-0-0-package-tgz tar:///Users/me/.npm/less2stylus/0.0.0/package.tgz
+53 verbose lock tar:///Users/me/.npm/less2stylus/0.0.0/package.tgz /Users/me/.npm/8db3ba89-pm-less2stylus-0-0-0-package-tgz.lock
+54 silly gunzTarPerm modes [ '755', '644' ]
+55 silly gunzTarPerm extractEntry package.json
+56 silly gunzTarPerm extractEntry README.md
+57 silly gunzTarPerm extractEntry less2stylus.js
+58 silly lockFile df633bde-me-npm-less2stylus-0-0-0-package tar:///Users/me/.npm/less2stylus/0.0.0/package
+59 silly lockFile df633bde-me-npm-less2stylus-0-0-0-package tar:///Users/me/.npm/less2stylus/0.0.0/package
+60 silly lockFile 8db3ba89-pm-less2stylus-0-0-0-package-tgz tar:///Users/me/.npm/less2stylus/0.0.0/package.tgz
+61 silly lockFile 8db3ba89-pm-less2stylus-0-0-0-package-tgz tar:///Users/me/.npm/less2stylus/0.0.0/package.tgz
+62 verbose chmod /Users/me/.npm/less2stylus/0.0.0/package.tgz 644
+63 verbose chown /Users/me/.npm/less2stylus/0.0.0/package.tgz [ 501, 20 ]
+64 silly lockFile 3a52ce78- .
+65 silly lockFile 3a52ce78- .
+66 silly publish { name: 'less2stylus',
+66 silly publish   version: '0.0.0',
+66 silly publish   description: 'Convert .less css preprocessor files to .stylus format.',
+66 silly publish   main: 'less2stylus.js',
+66 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+66 silly publish   repository: { type: 'git', url: 'https://github.com/demands/less2stylus' },
+66 silly publish   keywords: [ 'less', 'stylus', 'css' ],
+66 silly publish   author: { name: 'Max Edmands' },
+66 silly publish   license: '-',
+66 silly publish   bugs: { url: 'https://github.com/demands/less2stylus/issues' },
+66 silly publish   readme: '# Post conversion\n\n* Some `@import` orders have been switched to don\'t broke Stylus parsing\n* Some .mixin have been rename to .mixin() for a better conversion\n\n\n# Conversion\n\nFirst of all, I\'ve created a base script which made most of the conversion\n```shell\nnode less2stylus.js\n```\n\nThis convert every .less to .styl equivalent\n_Please note this less to stylus conversion script make a simple but easier to read syntax\nStylus do not require this but this script keep the braces, the semicolons & a variable identifier ($ instead of @ a la Sass)_\nSince less just have simple mixin, Stylus have `@extend` Sass feature, so I\'ve optimized some mixin call without args by replacing them with @extend. The stylus output will probably be lighter than the less one\n\n# After conversion: stylus parse try\n\nFixes of "parse error": I\'ve change just some tiny stuffs. Mainly;\n* url(data...) to url(unquote(\'data...\'))\n* same for microsoft filters\n\n# Manual Output comparison\n\n```shell\nstylus --out _output index.styl\n\nlessc index.less > _output/index.less.css\n```\n\nSince I\'ve used @extend with `less2stylus()`, I can do a simple comparison. So I modified a little bit the less code to be able to try comparision without @extend (it was hard since less has same syntax for class & mixins).\n\n# Comparison results\n\n## Things that are not a problem\n\n* By default, stylus does not include  /* */ comments so there some differences but really not important\n* The opacity() mixin is completly broken but it\'s not really a problem. It\'s just less than 10 lines. & Stylus nib extension have that https://github.com/visionmedia/nib/blob/master/lib/nib/vendor.styl#L240\n* Some url(\'\') have been changed to url(""), it\'s not a problem.\n* Some color value have been optimized (e.g. : black to #000) or lowercased\n\n# Main issue\n\nBecareful, there is a sort of major with if a less mixin, which are also class name.\nSo for some mixin called without args, you have to add the class name after the mixin declaration.\n\n```styl\nmixin() { // previously .mixin used as a mixin\n    //...\n}\n\n.mixin {\n    mixin()\n}\n\n```\n\n## Only tiny issue\n\nSame Color functions return differents results\ne.g. :\n\n* less lighten(#E0E3E4, 5%) => #eeeff0\n* stylus lighten(#E0E3E4, 5%) => #e2e4e5\n* sass lighten(#E0E3E4, 5%) => #eeeff0\n\nThe difference is no easily visible, but anyway, I\'ve bumped this issue https://github.com/LearnBoost/stylus/issues/328\nCompare the difference http://0to255.com/eeeff0 vs http://0to255.com/e2e4e5',
+66 silly publish   readmeFilename: 'README.md',
+66 silly publish   _id: 'less2stylus@0.0.0',
+66 silly publish   dist: { shasum: '8f8b5856e72f5f7dc3aba84818b842f0fa344e64' },
+66 silly publish   _from: '.' }
+67 verbose url raw less2stylus
+68 verbose url resolving [ 'https://registry.npmjs.org/', './less2stylus' ]
+69 verbose url resolved https://registry.npmjs.org/less2stylus
+70 info trying registry request attempt 1 at 23:21:07
+71 http PUT https://registry.npmjs.org/less2stylus
+72 http 409 https://registry.npmjs.org/less2stylus
+73 verbose url raw less2stylus
+74 verbose url resolving [ 'https://registry.npmjs.org/', './less2stylus' ]
+75 verbose url resolved https://registry.npmjs.org/less2stylus
+76 info trying registry request attempt 1 at 23:21:08
+77 http GET https://registry.npmjs.org/less2stylus
+78 http 200 https://registry.npmjs.org/less2stylus
+79 verbose uploading [ 'less2stylus/-/less2stylus-0.0.0.tgz/-rev/3-c5334f7a590b7ddb5776ab9114b3ca9e',
+79 verbose uploading   '/Users/me/.npm/less2stylus/0.0.0/package.tgz' ]
+80 verbose url raw less2stylus/-/less2stylus-0.0.0.tgz/-rev/3-c5334f7a590b7ddb5776ab9114b3ca9e
+81 verbose url resolving [ 'https://registry.npmjs.org/',
+81 verbose url resolving   './less2stylus/-/less2stylus-0.0.0.tgz/-rev/3-c5334f7a590b7ddb5776ab9114b3ca9e' ]
+82 verbose url resolved https://registry.npmjs.org/less2stylus/-/less2stylus-0.0.0.tgz/-rev/3-c5334f7a590b7ddb5776ab9114b3ca9e
+83 info trying registry request attempt 1 at 23:21:09
+84 http PUT https://registry.npmjs.org/less2stylus/-/less2stylus-0.0.0.tgz/-rev/3-c5334f7a590b7ddb5776ab9114b3ca9e
+85 http 403 https://registry.npmjs.org/less2stylus/-/less2stylus-0.0.0.tgz/-rev/3-c5334f7a590b7ddb5776ab9114b3ca9e
+86 info trying registry request attempt 1 at 23:21:11
+87 http PUT https://registry.npmjs.org/less2stylus/-/less2stylus-0.0.0.tgz/-rev/3-c5334f7a590b7ddb5776ab9114b3ca9e
+88 http 403 https://registry.npmjs.org/less2stylus/-/less2stylus-0.0.0.tgz/-rev/3-c5334f7a590b7ddb5776ab9114b3ca9e
+89 error publish Error uploading package
+90 error Error: forbidden user: demands not authorized to modify less2stylus
+90 error Added: _attachments.less2stylus-0.0.0.tgz: less2stylus/-/less2stylus-0.0.0.tgz/-rev/3-c5334f7a590b7ddb5776ab9114b3ca9e
+90 error     at RegClient.<anonymous> (/Users/me/.nvm/v0.10.20/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:272:14)
+90 error     at Request.self.callback (/Users/me/.nvm/v0.10.20/lib/node_modules/npm/node_modules/request/request.js:129:22)
+90 error     at Request.EventEmitter.emit (events.js:98:17)
+90 error     at Request.<anonymous> (/Users/me/.nvm/v0.10.20/lib/node_modules/npm/node_modules/request/request.js:873:14)
+90 error     at Request.EventEmitter.emit (events.js:117:20)
+90 error     at IncomingMessage.<anonymous> (/Users/me/.nvm/v0.10.20/lib/node_modules/npm/node_modules/request/request.js:824:12)
+90 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+90 error     at _stream_readable.js:920:16
+90 error     at process._tickCallback (node.js:415:13)
+91 error If you need help, you may report this log at:
+91 error     <http://github.com/isaacs/npm/issues>
+91 error or email it to:
+91 error     <npm-@googlegroups.com>
+92 error System Darwin 12.5.0
+93 error command "/Users/me/.nvm/v0.10.20/bin/node" "/Users/me/.nvm/v0.10.20/bin/npm" "publish"
+94 error cwd /Users/me/Projects/less2stylus
+95 error node -v v0.10.20
+96 error npm -v 1.3.11
+97 verbose exit [ 1, true ]
