@@ -1,0 +1,23 @@
+{
+  "name": "less2stylus",
+  "version": "0.0.0",
+  "description": "Convert .less css preprocessor files to .stylus format.",
+  "main": "less2stylus.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/demands/less2stylus"
+  },
+  "keywords": [
+    "less",
+    "stylus",
+    "css"
+  ],
+  "author": "Max Edmands",
+  "license": "-",
+  "bugs": {
+    "url": "https://github.com/demands/less2stylus/issues"
+  }
+}
