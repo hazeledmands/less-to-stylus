@@ -4,18 +4,6 @@
 * Some .mixin have been rename to .mixin() for a better conversion
 
 
-# Conversion
-
-First of all, I've created a base script which made most of the conversion
-```shell
-node less2stylus.js
-```
-
-This convert every .less to .styl equivalent
-_Please note this less to stylus conversion script make a simple but easier to read syntax
-Stylus do not require this but this script keep the braces, the semicolons & a variable identifier ($ instead of @ a la Sass)_
-Since less just have simple mixin, Stylus have `@extend` Sass feature, so I've optimized some mixin call without args by replacing them with @extend. The stylus output will probably be lighter than the less one
-
 # After conversion: stylus parse try
 
 Fixes of "parse error": I've change just some tiny stuffs. Mainly;

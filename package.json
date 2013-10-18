@@ -2,7 +2,7 @@
   "name": "less-to-stylus",
   "description": "Convert .less css preprocessor files to .styl format.",
   "version": "0.1.0",
-  "homepage": "https://github.com/demands/less2stylus",
+  "homepage": "https://github.com/demands/less-to-stylus",
   "author": {
     "name": "Max Edmands",
     "email": "github@maxedmands.com",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/demands/less2stylus"
+    "url": "https://github.com/demands/less-to-stylus"
   },
   "bugs": {
-    "url": "https://github.com/demands/less2stylus/issues"
+    "url": "https://github.com/demands/less-to-stylus/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/demands/less2stylus/blob/master/LICENSE-MIT"
+      "url": "https://github.com/demands/less-to-stylus/blob/master/LICENSE-MIT"
     }
   ],
   "main": "lib/less-to-stylus",
