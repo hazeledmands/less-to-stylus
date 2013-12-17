@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+
+var nopt = require('nopt');
+var io = require('../lib/io');
+var path = require('path');
+
+options = nopt({
+  "recursive": Boolean,
+  "output": path
+}, {
+  "r": ["--recursive"],
+  "o": ["--output"]
+});
+
+io.convertDirectory(options.argv.remain[0], options);
